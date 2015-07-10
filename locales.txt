@@ -1,0 +1,1649 @@
+[[Application Info]]
+	[application.info]
+		en = %@™ v %@\n\nManagement tool and report viewer for TIBCO JasperReports Server %.1f and greater.\n\nFor more information visit:\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		de = %@™ v %@\n\nManagementtool und Berichts-Viewer für TIBCO JasperReports Server %.1f und höher.\n\nWeitere Informationen erhalten Sie unter:\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		fr = %@™ v %@\n\nOutil de gestion et visionneuse de rapports pour TIBCO JasperReports Server %.1f et versions ultérieures.\n\nPour plus d'informations, consultez la page :\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		es = %@™ v %@\n\nHerramienta de administración y visor de informes de TIBCO JasperReports Server %.1f y posterior.\n\nPara obtener más información, visite:\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		it = %@™ v %@\n\nStrumento di gestione e visualizzatore report per server TIBCO JasperReports %.1f e versioni successive.\n\nPer ulteriori informazioni visitare la pagina:\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		pt = %@™ v %@\n\nFerramenta de gerenciamento e visualizador de relatório para o TIBCO JasperReports Server %.1f e posterior.\n\nFor more information visit:\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		ja = %@™ v %@\n\nTIBCO JasperReports Server %.1f 以降向けの管理ツール/レポートビューア。\n\n詳細は以下の URL をご覧ください。\nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\nCopyright © 2005-%zd TIBCO Software, Inc.
+		zh = %@™ v %@\n\nTIBCO JasperReports Server %.1f 及更高版本的管理工具和报告查看程序。\n\n有关更多信息，请访问: \nhttp://community.jaspersoft.com/project/jaspermobile-ios\n\n版权所有 © 2005-%zd TIBCO Software, Inc.
+        tags = ios
+        
+[[Login Page]]
+    [login.username.label]
+        en = Username
+        de = Benutzername
+        fr = Nom d’utilisateur
+        es = Nombre de usuario
+        it = Nome utente
+        pt = Nome do usuário
+        ja = ユーザー名
+        zh = 用户名
+        tags = ios 
+    [login.username.errmsg.empty]
+        en = Specify a valid username.
+        de = Geben Sie einen gültigen Benutzernamen an.
+        fr = Spécifiez un nom d’utilisateur valide.
+        es = Especifique un nombre de usuario válido.
+        it = Specificare un nome utente valido.
+        pt = Especificar um nome de usuário válido.
+        ja = 有効なユーザー名を指定してください。
+        zh = 指定一个有效的用户名。
+        tags = ios
+    [login.password.label]
+        en = Password
+        de = Passwort
+        fr = Mot de passe
+        es = Contraseña
+        it = Password
+        pt = Senha
+        ja = パスワード
+        zh = 密码
+        tags = ios
+    [login.password.errmsg.empty]
+        en = Specify a valid password.
+        de = Geben Sie ein gültiges Passwort an.
+        fr = Spécifiez un mot de passe valide.
+        es = Especifique una contraseña válida.
+        it = Indicare una password valida.
+        pt = Especifique uma senha válida.
+        ja = 有効なパスワードを指定してください。
+        zh = 指定一个有效的密码。
+        tags = ios
+    [login.server.profile.errmsg.empty]
+        en = Select a server profile.
+        de = Wählen Sie ein Serverprofil aus.
+        fr = Sélectionnez un profil de serveur.
+        es = Seleccione un perfil del servidor.
+        it = Selezionare un profilo server.
+        pt = Selecione um perfil do servidor.
+        ja = サーバー プロファイルを選択してください。
+        zh = 选择一个服务器配置文件。
+        tags = ios
+    [login.button.login] 
+        en = Login
+        de = Anmelden
+        fr = Connexion
+        es = Inicio de sesión
+        it = Accesso
+        pt = Login
+        ja = ログイン
+        zh = 登录
+        tags = ios
+    [login.button.try.demo]
+        en = Try Demo
+        de = Demo ausprobieren
+        fr = Essayer la démo
+        es = Probar demostración
+        it = Prova demo
+        pt = Demonstração de teste
+        ja = デモの実行
+        zh = 尝试演示
+        tags = ios
+
+[[Server Profiles view]]
+    [servers.profile.title]
+        en = Server Profiles
+        de = Serverprofile
+        fr = Profils de serveur
+        es = Perfiles del servidor
+        it = Profili server
+        pt = Perfis do servidor
+        ja = サーバー プロファイル
+        zh = 服务器配置文件
+        tags = ios
+    [servers.url.label]
+        en = Server address
+        de = Serveradresse
+        fr = Adresse du serveur
+        es = Dirección del servidor
+        it = Indirizzo server
+        pt = Endereço do servidor
+        ja = サーバー アドレス
+        zh = 服务器地址
+        tags = ios
+    [servers.url.errmsg]
+        en = Specify a valid URL.
+        de = Geben Sie eine gültige URL an.
+        fr = Spécifiez une URL valide.
+        es = Especifique una URL válida.
+        it = Specificare un URL valido.
+        pt = Especifique uma data válida
+        ja = 有効な URL を指定してください。
+        zh = 指定一个有效的 URL。
+        tags = ios
+    [servers.name.label]
+        en = Profile name
+        de = Profilname
+        fr = Nom du profil
+        es = Nombre del perfil
+        it = Nome profilo
+        pt = Nome da função
+        ja = プロファイル名
+        zh = 配置文件名
+        tags = ios
+    [servers.name.errmsg.empty]
+        en = Specify a valid profile name
+        de = Geben Sie einen gültigen Profilnamen an.
+        fr = Spécifier un nom de profil valide
+        es = Especifique un nombre de perfil válido
+        it = Indicare un nome di profilo valido
+        pt = Especifique um nome de perfil válido
+        ja = 有効なプロファイ名を指定してください
+        zh = 指定一个有效的配置文件名
+        tags = ios
+    [servers.name.errmsg.exists]
+        en = Profile name already exists. Specify a unique name.
+        de = Der Profilname ist bereits vorhanden. Geben Sie einen eindeutigen Namen an.
+        fr = Le nom de profil existe déjà. Spécifiez un nom unique.
+        es = El nombre de perfil ya existe. Especifique un nombre exclusivo.
+        it = Nome di profilo già esistente. Indicare un nome univoco.
+        pt = O nome do perfil já existe. Especifique um nome único.
+        ja = プロファイル名は既に存在します。一意の名前を指定してください。
+        zh = 配置文件名已存在。指定一个唯一的名称。
+        tags = ios
+    [servers.orgid.label]
+        en = Organization ID
+        de = Organisations-ID
+        fr = ID de l’organisation
+        es = ID de la organización
+        it = ID organizzazione
+        pt = ID da organização
+        ja = 組織 ID
+        zh = 组织 ID
+        tags = ios
+    [servers.askpassword.label]
+        en = Always ask for password
+        de = Passwort immer abfragen
+        fr = Toujours demander un mot de passe
+        es = Solicitar siempre una contraseña
+        it = Chiedere sempre la password
+        pt = Sempre peça a senha
+        ja = 常にパスワードを尋ねる
+        zh = 始终询问密码
+        tags = ios
+    [servers.keepSession.label]
+        en = Automatically extend the session
+        de = Sitzung automatisch verlängern
+        fr = Prolonger automatiquement la session
+        es = Ampliar automáticamente la sesión
+        it = Estendi automaticamente la sessione
+        pt = Estender a sessão automaticamente
+        ja = 自動的にセッションを延長する
+        zh = 自动扩展会话
+        tags = ios
+    [servers.title.new]
+        en = New Server Profile
+        de = Neues Serverprofil
+        fr = Nouveau profil de serveur
+        es = Nuevo perfil del servidor
+        it = Nuovo profilo server
+        pt = Novo perfil do servidor
+        ja = 新しいサーバー プロファイル
+        zh = 新服务器配置文件
+        tags = ios
+    [servers.action.profile.edit]
+        en = Edit
+        de = Bearbeiten
+        fr = Modifier
+        es = Editar
+        it = Modifica
+        pt = Editar
+        ja = 編集
+        zh = 编辑
+        tags = ios
+    [servers.action.profile.clone]
+        en = Clone Profile
+        de = Profil klonen
+        fr = Cloner le profil
+        es = Clonar perfil
+        it = Clona profilo
+        pt = Clonar perfil
+        ja = プロファイルの複製
+        zh = 克隆配置文件
+        tags = ios
+    [servers.action.profile.delete]
+        en = Delete
+        de = Löschen
+        fr = Supprimer
+        es = Eliminar
+        it = Elimina
+        pt = Excluir
+        ja = 削除
+        zh = 删除
+        tags = ios
+    [servers.profile.delete.message]
+        en = Confirm to delete this server profile.
+        de = Bestätigen Sie, dass dieses Serverprofil gelöscht werden soll.
+        fr = Confirmez la suppression de ce profil de serveur.
+        es = Confirme la eliminación de este perfil del servidor.
+        it = Assicurati di eliminare il profilo server.
+        pt = Confirmar para excluir este perfil do servidor.
+        ja = このサーバー プロファイルを削除するかどうかを確認してください。
+        zh = 确认删除此服务器配置文件。
+        tags = ios
+    [servers.profile.list.empty]
+        en = There are no Server Profiles
+        de = Es gibt keine Serverprofile.
+        fr = Aucun profil de serveur
+        es = No hay ningún perfil del servidor.
+        it = Nessun profilo server
+        pt = Não há Perfis do servidor
+        ja = サーバー プロファイルがありません
+        zh = 没有服务器配置文件
+        tags = ios
+
+[[Onboarding Intro]]
+    [intro.title]
+        en = Welcome to\nTIBCO JasperMobile
+        de = Willkommen bei\nTIBCO JasperMobile
+        fr = Bienvenue dans\nTIBCO JasperMobile
+        es = Bienvenido a\nTIBCO JasperMobile
+        it = Benvenuto a\nTIBCO JasperMobile
+        pt = Bem-vindo ao\nTIBCO JasperMobile
+        ja = TIBCO JasperMobile へようこそ
+        zh = 欢迎使用 TIBCO JasperMobile
+        tags = ios
+    [intro.description]
+        en = Swipe up to begin
+        de = Zum Beginnen nach oben wischen
+        fr = Faire glisser vers le haut pour commencer
+        es = Deslice hacia arriba para comenzar
+        it = Scorri rapidamente per iniziare
+        pt = Passe o dedo para começar
+        ja = 最初までスワイプします
+        zh = 向上轻扫以开始
+        tags = ios
+    [intro.button.skip.skip]
+        en = Skip Intro
+        de = Einführung überspringen
+        fr = Passer l’intro
+        es = Omitir introducción
+        it = Salta intr
+        pt = Pular introdução
+        ja = イントロをスキップ
+        zh = 跳过简介
+        tags = ios
+    [intro.button.skip.startUsing]
+        en = Start using TIBCO JasperMobile
+        de = Arbeit mit TIBCO JasperMobile beginnen
+        fr = Commencer à utiliser\nTIBCO JasperMobile
+        es = Empezar a usar TIBCO JasperMobile
+        it = Inizia a usare TIBCO JasperMobile
+        pt = Comece a usar o TIBCO JasperMobile
+        ja = TIBCO JasperMobile の使用を開始
+        zh = 开始使用 TIBCO JasperMobile
+        tags = ios
+    [intro.model.firstScreen.title]
+        en = Stay Connected
+        de = In Kontakt bleiben
+        fr = Rester connecté
+        es = Seguir conectado
+        it = Rimani collegato
+        pt = Fique conectado
+        ja = 接続を維持する
+        zh = 保持连接
+        tags = ios
+    [intro.model.firstScreen.description]
+        en = TIBCO JasperMobile keeps you connected to\nyour business wherever you are.
+        de = Durch TIBCO JasperMobile bleiben Sie in Kontakt\nmit Ihrem Geschäft. Egal wo Sie sich aufhalten.
+        fr = TIBCO JasperMobile vous permet de rester connecté à\nvotre entreprise où que vous soyez.
+        es = TIBCO JasperMobile le mantiene conectado a\nsu negocio en cualquier lugar.
+        it = TIBCO JasperMobile ti consente di essere sempre\nconnesso al tuo business, ovunque ti trovi.
+        pt = A TIBCO JasperMobile mantém você conectado a\nseus negócios onde estiver.
+        ja = TIBCO JasperMobile を使用すると、場所を問わず業務を続けることができます。
+        zh = TIBCO JasperMobile 可随时随地让您连接到您的企业。
+        tags = ios
+    [intro.model.secondScreen.title]
+        en = Instant Access
+        de = Unmittelbarer Zugriff
+        fr = Accès immédiat
+        es = Acceso al instante
+        it = Accesso istantaneo
+        pt = Acesso instantâneo
+        ja = 簡易アクセス
+        zh = 即时访问
+        tags = ios
+    [intro.model.secondScreen.description]
+        en = Get access to live interactive reports\ndriven from your operational applications.
+        de = Lesen Sie in Echtzeit erstellte interaktive Berichte,\ndie auf Ihren betrieblichen Anwendungen beruhen.
+        fr = Accédez aux rapports interactifs en direct\nà partir de vos applications opérationnelles.
+        es = Obtenga acceso a informes interactivos en directo\nimpulsados desde sus aplicaciones operativas.
+        it = Accedi a report interattivi in tempo reale\nrealizzati dalle tue applicazioni operative.
+        pt = Obtenha acesso a relatórios interativos ao vivo\ndirecionados de suas aplicações operacionais.
+        ja = 操作中のアプリケーションから実行されている\nインタラクティブなライブ レポートにアクセスします。
+        zh = 访问通过您运行的应用程序生成的实时交互报表。
+        tags = ios
+    [intro.model.thirdScreen.title]
+        en = Seemless Integration
+        de = Nahtlose Integration
+        fr = Intégration facile
+        es = Integración optimizada
+        it = Integrazione senza interruzioni
+        pt = Integração perfeita
+        ja = シームレスな統合
+        zh = 无缝集成
+        tags = ios
+    [intro.model.thirdScreen.description]
+        en = View and interact with your TIBCO JasperReports\nServer v%.1f or greater environment.
+        de = Nutzen Sie die Arbeitsumgebung Ihres TIBCO\nJasperReports Servers v%.1f oder höher.
+        fr = Affichez et interagissez avec votre TIBCO JasperReports\nServer v%.1f ou environnement ultérieur.
+        es = Vea el entorno de TIBCO JasperReports\nServer v%.1f o posterior e interactúe con él.
+        it = Visualizza e interagisci con il tuo ambiente\nTIBCO JasperReports Server v%.1f o versioni successive.
+        pt = Exiba e interaja com o ambiente do\nTIBCO JasperReports Server v%.1f ou superior.
+        ja = TIBCO JasperReports Server v%.1f 以降の環境を\n表示して連携します。
+        zh = 查看并与您的 TIBCO JasperReports Server v%.1f 或更大的环境交互。
+        tags = ios
+
+[[Menu View Label]]
+    [menuitem.library.label]
+        en = Library
+        de = Bibliothek
+        fr = Bibliothèque
+        es = Biblioteca
+        it = Libreria
+        pt = Biblioteca
+        ja = ライブラリ
+        zh = 库
+        tags = ios
+    [menuitem.recentviews.label]
+        en = Recently Viewed
+        de = Zuletzt angesehen
+        fr = Vu récemment
+        es = Recientemente visto
+        it = Visualizzato recentemente
+        pt = Recently Viewed
+        ja = 最近表示した項目
+        zh = 最近浏览
+        tags = ios
+    [menuitem.saveditems.label]
+        en = Saved Items
+        de = Gespeicherte Elemente
+        fr = Éléments enregistrés
+        es = Elementos guardados
+        it = Elementi salvati
+        pt = Itens salvos
+        ja = 保存されたアイテム
+        zh = 已保存项目
+        tags = ios
+    [menuitem.settings.label]
+        en = Settings
+        de = Einstellungen
+        fr = Paramètres
+        es = Configuración
+        it = Impostazioni
+        pt = Configurações
+        ja = 設定
+        zh = 设置
+        tags = ios
+    [menuitem.repository.label]
+        en = Repository
+        de = Repository
+        fr = Référentiel
+        es = Repositorio
+        it = Archivio
+        pt = Repositório
+        ja = リポジトリ
+        zh = 资料库
+        tags = ios
+    [menuitem.favorites.label]
+        en = Favorites
+        de = Favoriten
+        fr = Favoris
+        es = Favoritos
+        it = Preferiti
+        pt = Favoritos
+        ja = お気に入り
+        zh = 收藏夹
+        tags = ios
+    [menuitem.logout.label]
+        en = Log Out
+        de = Abmelden
+        fr = Déconnexion
+        es = Cerrar sesión
+        it = Disconnetti
+        pt = SAIR
+        ja = ログアウト
+        zh = 退出
+        tags = ios
+        
+[[Resource views]]
+    [resources.loading.msg]
+        en = Loading.\nPlease wait...
+        de = Laden.\nBitte warten...
+        fr = Chargement en cours.\nVeuillez patienter...
+        es = Cargando.\nEspere...
+        it = Caricamento in corso.\nAttendere...
+        pt = Carregando.\nAguarde...
+        ja = 読み込み中です。\nお待ちください...
+        zh = 正在加载。\n请稍候...
+        tags = ios
+    [resources.noresults.msg]
+        en = No Results.
+        de = Keine Ergebnisse.
+        fr = Aucun résultat.
+        es = No hay resultados.
+        it = Nessun risultato.
+        pt = Nenhum resultado.
+        ja = 結果はありません。
+        zh = 无结果。
+        tags = ios
+    [resources.search.placeholder]
+        en = Search resources
+        de = Ressourcen durchsuchen
+        fr = Rechercher des ressources
+        es = Buscar recursos
+        it = Cerca risorse
+        pt = Resultados da busca
+        ja = リソースの検索
+        zh = 搜索资源
+        tags = ios
+    [resources.noresults.saveditems.msg]
+        en = No Saved Items.
+        de = Keine gespeicherten Elemente.
+        fr = Aucun élément enregistré.
+        es = No hay elementos guardados.
+        it = Nessun elemento salvato.
+        pt = Itens não gravados
+        ja = 保存されたアイテムはありません。
+        zh = 没有已保存项目。
+        tags = ios
+    [resources.noresults.favorites.msg]
+        en = No Favorited Items.
+        de = Es sind keine favorisierten Elemente vorhanden.
+        fr = Il n'y a pas d'éléments favoris.
+        es = No hay elementos favoritos.
+        it = Nessun elemento salvato tra i Preferiti.
+        pt = Não existem itens favoritos
+        ja = お気に入りのアイテムはありません。
+        zh = 没有收藏项目。
+        tags = ios
+
+[[Resource views: Filter By]]
+    [resources.filterby.title]
+        en = Resource Type
+        de = Objekttyp
+        fr = Type d’objet
+        es = Tipo de objeto
+        it = Tipo di oggetto
+        pt = Tipo de objeto
+        ja = オブジェクト タイプ
+        zh = 对象类型
+        tags = ios
+    [resources.filterby.type.all]
+        en = All
+        de = Alle
+        fr = Tout
+        es = Todo
+        it = Tutto
+        pt = Todos
+        ja = すべて
+        zh = 全部
+        tags = ios
+    [resources.filterby.type.reportUnit]
+        en = Reports
+        de = Berichte
+        fr = Rapports
+        es = Informes
+        it = Report
+        pt = Relatórios
+        ja = レポート
+        zh = 报表
+        tags = ios
+    [resources.filterby.type.dashboard]
+        en = Dashboards
+        de = Dashboards
+        fr = Tableaux de bord
+        es = Paneles
+        it = Dashboard
+        pt = Painéis
+        ja = ダッシュボード
+        zh = 仪表板
+        tags = ios
+    [resources.filterby.type.folder]
+        en = Folders
+        de = Ordner
+        fr = Dossiers
+        es = Carpetas
+        it = Cartelle
+        pt = Pastas
+        ja = フォルダ
+        zh = 文件夹
+        tags = ios
+    [resources.filterby.type.saved.reportUnit]
+        en = Saved Items
+        de = Gespeicherte Elemente
+        fr = Éléments enregistrés
+        es = Elementos guardados
+        it = Elementi salvati.
+        pt = Itens gravados
+        ja = 保存されたアイテム
+        zh = 已保存项目
+        tags = ios
+
+[[Resource views: Sort by]]
+    [resources.sortby.title]
+        en = Sort Options
+        de = Sortieroptionen
+        fr = Options de tri
+        es = Opciones de ordenación
+        it = Opzioni di ordinamento
+        pt = Opções de classificação
+        ja = ソート オプション
+        zh = 排序选项
+        tags = ios
+    [resources.sortby.name]
+        en = Name
+        de = Name
+        fr = Nom
+        es = Nombre
+        it = Nome
+        pt = Nome
+        ja = 名前
+        zh = 名称
+        tags = ios
+    [resources.sortby.creationDate]
+        en = Creation Date
+        de = Datum
+        fr = Date
+        es = Fecha
+        it = Data
+        pt = Data
+        ja = 日付
+        zh = 日期
+        tags = ios
+    [resources.sortby.modifiedDate]
+        en = Modified Date
+        de = Änderungsdatum
+        fr = Date de modification
+        es = Fecha de modificación
+        it = Data modifica
+        pt = Data Modificada
+        ja = 変更日
+        zh = 修改日期
+        tags = ios
+    [resources.sortby.accessTime]
+        en = Access Time
+        de = Zugriffszeit
+        fr = Heure d'accès
+        es = Hora de acceso
+        it = Ora di accesso
+        pt = Hora do Acesso
+        ja = アクセス時間
+        zh = 访问时间
+        tags = ios
+
+[[Resource viewer view]]
+    [resource.viewer.open.link]
+        en = Do you want to open link in external browser?
+        de = Möchten Sie den Link in einem externen Browser öffnen?
+        fr = Voulez-vous ouvrir le lien dans un navigateur externe ?
+        es = ¿Desea abrir el vínculo en un navegador externo?
+        it = Aprire il collegamento in un browser esterno?
+        pt = Você deseja abrir o link em um navegador externo?
+        ja = 外部ブラウザのリンクを開きますか?
+        zh = 是否要在外部浏览器中打开链接?
+        tags = ios
+    [resource.viewer.can't.open.link]
+        en = Link can't be opened.
+        de = Der Link kann nicht geöffnet werden.
+        fr = Le lien ne peut pas être ouvert.
+        es = No se puede abrir el vínculo.
+        it = Impossibile aprire il collegamento.
+        pt = Não é possível abrir o link.
+        ja = リンクを開けません。
+        zh = 无法打开链接。
+        tags = ios
+    [resource.viewer.print.operation.name]
+        en = %@ print operation
+        de = %@ Druckvorgang
+        fr = %@ opération d'impression
+        es = %@ operación de impresión
+        it = %@ operazione di stampa
+        pt = %@ operação de impressão
+        ja = %@ プリント実行
+        zh = @打印操作
+        tags = ios
+    [resource.viewer.print.button.title]
+        en = Print...
+        de = Drucken...
+        fr = Impression ...
+        es = Imprimir...
+        it = Stampa in corso...
+        pt = Imprimir...
+        ja = 印刷...
+        zh = 打印...
+        tags = ios
+    [resource.viewer.print.preview.title]
+        en = Preview
+        de = Vorschau
+        fr = Aperçu
+        es = Vista previa
+        it = Anteprima
+        pt = Pré-visualização
+        ja = プレビュー
+        zh = 预览
+        tags = ios
+    [resource.viewer.print.prepare.title]
+        en = Prepare...
+        de = Vorbereiten...
+        fr = Préparation ...
+        es = Preparar...
+        it = Preparazione in corso...
+        pt = Preparação...
+        ja = 準備...
+        zh = 准备...
+        tags = ios
+
+[[Report viewer]]
+    [report.viewer.error.title]
+        en = Error while loading report.
+        de = Fehler beim Laden des Berichts.
+        fr = Erreur lors du chargement du rapport.
+        es = Error al cargar el informe.
+        it = Errore durante il caricamento del report.
+        pt = Ocorreu um erro ao carregar o relatório
+        ja = レポートの読み込み中にエラーが発生しました。
+        zh = 加载报表时出错。
+        tags = ios
+    [report.viewer.visualize.render.error]
+        en = Report rendering failed.
+        de = Die Darstellung des Berichts ist fehlgeschlagen.
+        fr = Échec de rendu du rapport.
+        es = Error al procesar el informe.
+        it = Impossibile eseguire il rendering del report.
+        pt = A renderização do relatório falhou.
+        ja = レポートのレンダリングに失敗しました。
+        zh = 报表渲染失败。
+        tags = ios
+    [report.viewer.emptyreport.title]
+        en = Report is empty.
+        de = Der Bericht ist leer.
+        fr = Le rapport est vide.
+        es = El informe está vacío.
+        it = Il report è vuoto.
+        pt = O relatório está vazio.
+        ja = レポートは空です。
+        zh = 报表为空。
+        tags = ios
+    [report.viewer.pagecount]
+        en = of %d
+        de = von %d
+        fr = sur %d
+        es = de %d
+        it = di %d
+        pt = de %d
+        ja = /%d
+        zh = /%d
+        tags = ios
+
+[[Report Saver view]]
+    [report.viewer.save.title]
+        en = Save Report
+        de = Bericht speichern
+        fr = Enregistrer le rapport
+        es = Guardar informe
+        it = Salva report
+        pt = Tabela / Relatório
+        ja = レポートの保存
+        zh = 保存报表
+        tags = ios
+    [report.viewer.save.name]
+        en = Report name
+        de = Berichtsname
+        fr = Nom du rapport
+        es = Nombre de informe
+        it = Nome report
+        pt = Nome do relatório
+        ja = レポート名
+        zh = 报表名
+        tags = ios
+    [report.viewer.save.format]
+        en = Output format
+        de = Ausgabeformat
+        fr = Format de sortie
+        es = Formatos de salida
+        it = Formato di output
+        pt = Formatos de saída
+        ja = 出力フォーマット
+        zh = 输出格式
+        tags = ios
+    [report.viewer.save.pages]
+        en = Pages
+        de = Seitenbereich
+        fr = Plage de pages
+        es = Intervalo de páginas
+        it = Intervallo di pagine
+        pt = Intervalo de páginas
+        ja = ページ範囲
+        zh = 页面范围
+        tags = ios
+    [report.viewer.save.pages.all]
+        en = All
+        de = Alle
+        fr = Tout
+        es = Todo
+        it = Tutti
+        pt = Todos
+        ja = すべて
+        zh = 全部
+        tags = ios
+    [report.viewer.save.pages.range.fromPage]
+        en = From page:
+        de = Von Seite:
+        fr = De la page :
+        es = Desde la página:
+        it = Da pagina:
+        pt = Da página:
+        ja = 開始ページ:
+        zh = 超始页面:
+        tags = ios
+    [report.viewer.save.pages.range.toPage]
+        en = To page:
+        de = Bis Seite:
+        fr = À la page :
+        es = Hasta la página:
+        it = A pagina:
+        pt = Até a página:
+        ja = 終了ページ:
+        zh = 截止页面:
+        tags = ios
+    [report.viewer.save.saved]
+        en = The report was saved successfully.
+        de = Der Bericht wurde erfolgreich gespeichert.
+        fr = Le rapport a été enregistré avec succès.
+        es = El informe se ha guardado correctamente.
+        it = Il report è stato salvato.
+        pt = O relatório foi validado com sucesso.
+        ja = レポートは正常に保存されました。
+        zh = 已成功保存报表。
+        tags = ios
+    [report.viewer.save.name.errmsg.empty]
+        en = This field is required.
+        de = Dieses Feld ist erforderlich.
+        fr = Ce champ est obligatoire.
+        es = Este campo es obligatorio.
+        it = Questo campo è obbligatorio.
+        pt = Este campo é obrigatório.
+        ja = このフィールドは必須です。
+        zh = 此字段为必填字段。
+        tags = ios
+    [report.viewer.save.name.errmsg.notunique]
+        en = This name already exists, choose a unique name.
+        de = Dieser Name ist bereits vorhanden. Wählen Sie einen eindeutigen Namen aus.
+        fr = Ce nom existe déjà, choisissez un nom unique.
+        es = Esta nombre ya existe; seleccione un nombre exclusivo.
+        it = Nome già esistente, scegliere un nome univoco.
+        pt = Este nome já existe, escolha um nome exclusivo.
+        ja = この名前は既に存在しています。一意の名前を選択してください。
+        zh = 此名称已存在，选择一个唯一的名称。
+        tags = ios
+    [report.viewer.save.name.errmsg.notunique.rewrite]
+        en = This name already exists, do you want to overwrite it?
+        de = Dieser Name ist bereits vorhanden. Möchten Sie ihn überschreiben?
+        fr = Ce nom existe déjà, voulez-vous le remplacer ?
+        es = Este nombre ya existe; ¿desea sobrescribirlo?
+        it = Nome già esistente, sostituirlo?
+        pt = Este nome já existe, você deseja sobrescrevê-lo?
+        ja = この名前は既に存在しています。上書きしますか?
+        zh = 此名称已存在，是否要覆盖?
+        tags = ios
+    [report.viewer.save.name.errmsg.maxlength]
+        en = Must be less than %i characters.
+        de = Muss kürzer als %i Zeichen sein.
+        fr = Doit contenir moins de %i caractères.
+        es = Debe tener menos de %i caracteres.
+        it = Non può contenere più di %i caratteri.
+        pt = Deve ter menos que %i caracteres.
+        ja = %i 文字を超えないようにしてください。
+        zh = 必须少于 %i 个字符。
+        tags = ios
+    [report.viewer.save.name.errmsg.characters]
+        en = Characters %@ are not allowed.
+        de = Die Zeichen %@ sind nicht zulässig.
+        fr = Les caractères %@ ne sont pas autorisés.
+        es = No se admiten los caracteres %@.
+        it = I caratteri %@ non sono consentiti.
+        pt = Os caracteres %@ não são permitidos.
+        ja = 文字 %@ は使用できません。
+        zh = 不允许使用字符 %@。
+        tags = ios
+    [report.viewer.save.saving.status.title]
+        en = Saving report...
+        de = Bericht speichern...
+        fr = Enregistrement du rapport...
+        es = Guardando informe...
+        it = Salvataggio del report in corso...
+        pt = Salvando relatório...
+        ja = レポートを保存しています...
+        zh = 正在保存报表...
+        tags = ios
+    [report.viewer.save.name.errmsg.tooBigRange]
+        en = Can't save report of more than %@ pages in HTML format. Would you like to save it in PDF format?
+        de = Bericht mit mehr als %@ Seiten im HTML-Format konnte nicht gespeichert werden. Möchten Sie ihn im PDF-Format speichern?
+        fr = Impossible d'enregistrer un rapport de plus de %@ pages en format HTML. Voulez-vous l'enregistrer en format PDF ?
+        es = No se puede guardar un informe de más de %@ páginas en formato HTML. ¿Desea guardarlo en formato PDF?
+        it = Non è possibile salvare rapporti di più di %@ pagine in formato HTML. Si desidera salvarlo in formato PDF?
+        pt = Não é possível salvar relatório com mais de %@ páginas em formato HTML. Deseja salvar em formato PDF?
+        ja = %@ページ以上のレポートを、HTML形式で保存できませんでした。PDF形式で保存しますか？
+        zh = 无法保存多于%@页的HTML格式报告。您想将其保存为PDF格式吗？
+        tags = ios
+
+[[Report viewer Options view]]
+    [report.viewer.options.title]
+        en = Filter Options
+        de = Filteroptionen
+        fr = Options de filtre
+        es = Operación de filtro
+        it = Opzioni filtro
+        pt = Filtrar operação
+        ja = フィルタ オプション
+        zh = 过滤器选项
+        tags = ios
+    [report.viewer.options.singleselect.titlelabel.title]
+        en = Select a single item
+        de = Ein einzelnes Element auswählen
+        fr = Sélectionner un seul élément
+        es = Seleccione un único elemento
+        it = Selezionare un unico elemento
+        pt = Selecione um único item
+        ja = 1 つのアイテムを選択
+        zh = 选择一个项目
+        tags = ios
+    [report.viewer.options.multiselect.titlelabel.title]
+        en = Select one or more items
+        de = Ein oder mehr Elemente auswählen
+        fr = Sélectionner un ou plusieurs éléments
+        es = Seleccione uno o más elementos
+        it = Selezionare uno o più elementi
+        pt = Selecione um ou mais itens.
+        ja = 1 つまたは複数のアイテムを選択
+        zh = 选择一个或多个项目
+        tags = ios
+    [report.viewer.options.search.value.placeholder]
+        en = Search Values
+        de = Werte durchsuchen
+        fr = Rechercher des valeurs
+        es = Buscar valores
+        it = Cerca valori
+        pt = Buscar valores
+        ja = 値を検索
+        zh = 搜索值
+        tags = ios
+    [report.viewer.options.ic.title.date]
+        en = Date
+        de = Datum
+        fr = Date
+        es = Fecha
+        it = Data
+        pt = Data
+        ja = 日付
+        zh = 日期
+        tags = ios
+    [report.viewer.options.ic.title.time]
+        en = Time
+        de = Zeit
+        fr = Heure
+        es = Hora
+        it = Ora
+        pt = Hora
+        ja = 時間
+        zh = 时间
+        tags = ios
+    [report.viewer.options.ic.title.unset]
+        en = Unset
+        de = Festlegung aufheben
+        fr = Non défini
+        es = Sin establecer
+        it = Annulla impostazione
+        pt = Cancelar definição
+        ja = 未設定
+        zh = 未设置
+        tags = ios
+
+[[Saved Reports viewer view]]
+    [savedreport.viewer.modify.title]
+        en = Rename Report
+        de = Bericht umbenennen
+        fr = Renommer le rapport
+        es = Cambiar nombre de informe
+        it = Rinomina report
+        pt = Criar relatório
+        ja = レポートの名前変更
+        zh = 重命名报表
+        tags = ios
+    [savedreport.viewer.modify.reportname]
+        en = Item name
+        de = Elementname
+        fr = Nom de l’élément
+        es = Nombre del elemento
+        it = Nome dell'elemento
+        pt = Nome do item
+        ja = アイテム名
+        zh = 项目名称
+        tags = ios
+    [savedreport.viewer.delete.confirmation.message]
+        en = Do you really want to delete this item?
+        de = Möchten Sie dieses Element wirklich löschen?
+        fr = Voulez-vous vraiment supprimer cet élément ?
+        es = ¿Desea realmente eliminar este elemento?
+        it = Eliminare questo elemento?
+        pt = Tem certeza de que deseja excluir esse item?
+        ja = このアイテムを削除しますか?
+        zh = 是否确定要删除此项目?
+        tags = ios
+    [savedreport.viewer.show.resource.error.message]
+        en = Report could not be loaded. Try to save a report with less count of pages.
+        de = 
+        fr =
+        es =
+        it =
+        pt =
+        ja =
+        zh =
+        tags = ios
+
+[[Resource Info View ]]
+    [resource.label.title]
+        en = Name
+        de = Name
+        fr = Nom
+        es = Nombre
+        it = Nome
+        pt = Nome
+        ja = 名前
+        zh = 名称
+        tags = ios
+    [resource.description.title]
+        en = Description
+        de = Beschreibung
+        fr = Description
+        es = Descripción
+        it = Descrizione
+        pt = Descrição
+        ja = 説明
+        zh = 说明
+        tags = ios
+    [resource.type.title]
+        en = Type
+        de = Typ
+        fr = Type
+        es = Tipo
+        it = Tipo
+        pt = Tipo
+        ja = タイプ
+        zh = 类型
+        tags = ios
+    [resource.uri.title]
+        en = URI
+        de = URI
+        fr = URI
+        es = URI
+        it = URI
+        pt = URI
+        ja = URI
+        zh = URI
+        tags = ios
+    [resource.version.title]
+        en = Version
+        de = Version
+        fr = Version
+        es = Versión
+        it = Versione
+        pt = Versão
+        ja = バージョン
+        zh = 版本
+        tags = ios
+    [resource.creationDate.title]
+        en = Creation Date
+        de = Erstellungsdatum
+        fr = Date de création
+        es = Fecha de creación
+        it = Data creazione
+        pt = Data de criação
+        ja = 作成日
+        zh = 创建日期
+        tags = ios
+    [resource.modifiedDate.title]
+        en = Modified Date
+        de = Änderungsdatum
+        fr = Date de modification
+        es = Fecha de modificación
+        it = Data modifica
+        pt = Data Modificada
+        ja = 変更日
+        zh = 修改日期
+        tags = ios
+    [resources.type.reportUnit]
+        en = Report
+        de = Bericht
+        fr = Rapport
+        es = Informe
+        it = Rapporto
+        pt = Relatório
+        ja = レポート
+        zh = 报告
+        tags = ios
+    [resources.type.dashboard]
+        en = Dashboard
+        de = Dashboard
+        fr = Tableau de bord
+        es = Panel de control
+        it = Pannello dei comandi
+        pt = Painel de Controle
+        ja = ダッシュボード
+        zh = 控制面板
+        tags = ios
+    [resources.type.dashboard.legacy]
+        en = Legacy Dashboard
+        de = Legacy-Dashboard
+        fr = Ancien tableau de bord
+        es = Panel de control antiguo
+        it = Pannello dei comandi versione precedente
+        pt = Painel de Controle Legacy
+        ja = レガシーダッシュボード
+        zh = 传统控制面板
+        tags = ios
+    [resources.type.folder]
+        en = Folder
+        de = Ordner
+        fr = Dossier
+        es = Carpeta
+        it = Cartella
+        pt = Pasta
+        ja = フォルダ
+        zh = 文件夹
+        tags = ios
+    [resources.type.saved.reportUnit]
+        en = Content Resource
+        de = Inhaltsressource
+        fr = Ressource du contenu
+        es = Recurso de contenido
+        it = Risorse dei contenuti
+        pt = Recursos do Conteúdo
+        ja = コンテンツリソース
+        zh = 内容资源
+        tags = ios
+
+[[Settings view]]
+    [settings.title]
+        en = Settings
+        de = Einstellungen
+        fr = Paramètres
+        es = Configuración
+        it = Impostazioni
+        pt = Configurações
+        ja = 設定
+        zh = 设置
+        tags = ios
+    [settings.item.connection.timeout]
+        en = Connection timeout (in seconds)
+        de = Verbindungstimeout (in Sekunden)
+        fr = Expiration de la connexion (en secondes)
+        es = Tiempo de espera de la conexión (en segundos)
+        it = Timeout della connessione (in secondi)
+        pt = Tempo limite da conexão (em segundos)
+        ja = 接続タイムアウト (秒)
+        zh = 连接超时(秒)
+        tags = ios
+    [settings.item.server]
+        en = Server
+        de = Server
+        fr = Serveur
+        es = Servidor
+        it = Server
+        pt = Servidor
+        ja = サーバー
+        zh = 服务器
+        tags = ios
+    [settings.item.intro]
+        en = Show intro
+        de = Einführung anzeigen
+        fr = Afficher l’intro
+        es = Mostrar introducción
+        it = Mostra intro
+        pt = Mostrar a introdução
+        ja = イントロの表示
+        zh = 显示简介
+        tags = ios
+    [settings.crashtracking.title]
+        en = Send crash reports
+        de = Absturzberichte senden
+        fr = Envoyer les rapports de panne
+        es = Enviar informes de bloqueo
+        it = Invia report di crash
+        pt = Enviar relatórios de falha
+        ja = クラッシュ レポートの送信
+        zh = 发送崩溃报表
+        tags = ios
+    [settings.crashtracking.alert.title]
+        en = Note
+        de = Hinweis
+        fr = Remarque
+        es = Nota
+        it = Nota
+        pt = Obs.
+        ja = 注意
+        zh = 注
+        tags = ios
+    [settings.crashtracking.alert.message]
+        en = Restart the app after changing this setting.
+        de = Starten Sie die App nach Änderung dieser Einstellung neu.
+        fr = Redémarrez l’application après avoir modifié ce paramètre.
+        es = Reinicie la aplicación tras modificar este parámetro.
+        it = Dopo aver modificato l'impostazione, riavviare l'app.
+        pt = Reiniciar o aplicativo após alterar essas configurações.
+        ja = この設定を変更したら、アプリを再起動してください。
+        zh = 在更改此设置后重新启动应用程序。
+        tags = ios
+    [settings.privacy.policy.title]
+        en = Privacy Policy
+        de = Datenschutzrichtlinie
+        fr = Charte de confidentialité"
+        es = Política de privacidad
+        it = Informativa sulla privacy
+        pt = Política de privacidade
+        ja = プライバシー ポリシー
+        zh = 隐私政策
+        tags = ios
+    [settings.feedback]
+        en = Feedback by email
+        de = Feedback per E-Mail
+        fr = Commentaires par e-mail
+        es = Comentarios por correo electrónico
+        it = Commento tramite e-mail
+        pt = Enviar feedback por e-mail
+        ja = メールによるフィードバック
+        zh = 通过电子邮件发送反馈
+        tags = ios
+    [settings.feedback.errorShowClient]
+        en = An email address is required.
+        de = Es muss eine E-Mail-Adresse angegeben werden.
+        fr = Une adresse e-mail est requise.
+        es = Se debe especificar una dirección de correo electrónico.
+        it = Fornire un indirizzo e-mail.
+        pt = Um endereço de e-mail é obrigatório
+        ja = メール アドレスは必須です。
+        zh = 电子邮件地址为必填字段。
+        tags = ios
+    [settings.save.message]
+        en = Saving Settings...
+        de = Einstellungen speichern...
+        fr = Enregistrement des paramètres...
+        es = Guardando configuración...
+        it = Salvataggio impostazioni in corso...
+        pt = Salvando configurações...
+        ja = 設定を保存しています...
+        zh = 正在保存设置...
+        tags = ios
+
+[[Action titles]]
+    [action.title.refresh]
+        en = Refresh
+        de = Aktualisieren
+        fr = Actualiser
+        es = Actualizar
+        it = Aggiorna
+        pt = Atualizar
+        ja = 更新
+        zh = 刷新
+        tags = ios
+    [action.title.save]
+        en = Save
+        de = Speichern
+        fr = Enregistrer
+        es = Guardar
+        it = Salva
+        pt = Salvar
+        ja = 保存
+        zh = 保存
+        tags = ios
+    [action.title.edit]
+        en = Edit Filter Options
+        de = Filteroptionen bearbeiten
+        fr = Modifier les options de filtre
+        es = Editar opciones de filtro
+        it = Modifica opzioni del filtro
+        pt = Editar opções do filtro
+        ja = フィルタ オプションの編集
+        zh = 编辑过滤器选项
+        tags = ios
+    [action.title.delete]
+        en = Delete
+        de = Löschen
+        fr = Supprimer
+        es = Eliminar
+        it = Elimina
+        pt = Excluir
+        ja = 削除
+        zh = 删除
+        tags = ios
+    [action.title.rename]
+        en = Rename
+        de = Umbenennen
+        fr = Renommer
+        es = Cambiar nombre
+        it = Rinomina
+        pt = Renomear
+        ja = 名前の変更
+        zh = 重命名
+        tags = ios
+    [action.title.markasfavorite]
+        en = Mark as Favorite
+        de = Als Favorit kennzeichnen
+        fr = Marquer en tant que favori
+        es = Marcar como favorito
+        it = Contrassegna come preferito
+        pt = Marcar como favorito
+        ja = お気に入りとしてマーク
+        zh = 标记为收藏项
+        tags = ios
+    [action.title.markasunfavorite]
+        en = Remove From Favorites
+        de = Aus Favoriten entfernen
+        fr = Supprimer des favoris
+        es = Quitar de Favoritos
+        it = Rimuovi dai preferiti
+        pt = Remover dos favoritos
+        ja = お気に入りから削除
+        zh = 从收藏夹中删除
+        tags = ios
+    [action.title.info]
+        en = Info
+        de = Info
+        fr = Infos
+        es = Información
+        it = Informazioni
+        pt = Informações   
+        ja = お知らせ
+        zh = 信息
+        tags = ios
+    [action.title.filter]
+        en = Filter by
+        de = Filtern nach
+        fr = Filtrer par
+        es = Filtrar por
+        it = Filtra per
+        pt = Filtro
+        ja = フィルタ基準
+        zh = 过滤方式
+        tags = ios
+    [action.title.sort]
+        en = Sort by
+        de = Sortieren nach
+        fr = Trier par
+        es = Ordenar por
+        it = Ordina per
+        pt = Classificar como
+        ja = ソート基準
+        zh = 排序方式
+        tags = ios
+    [action.title.selectall]
+        en = Select All
+        de = Alle auswählen
+        fr = Sélectionner tout
+        es = Seleccionar todo
+        it = Seleziona tutto
+        pt = Selecionar todos
+        ja = すべて選択
+        zh = 全选
+        tags = ios
+    [action.title.clearselections]
+        en = Clear selections
+        de = Auswahlen aufheben
+        fr = Effacer les sélections
+        es = Borrar selecciones
+        it = Cancella selezioni
+        pt = Limpar seleções
+        ja = 選択のクリア
+        zh = 清除选定内容
+        tags = ios
+    [action.title.run]
+        en = Run
+        de = Ausführen
+        fr = Exécuter
+        es = Ejecutar
+        it = Esegui
+        pt = Executar
+        ja = 実行
+        zh = 运行
+        tags = ios
+    [action.title.print]
+        en = Print
+        de = Drucken
+        fr = Imprimer
+        es = Imprimir
+        it = Stampa
+        pt = Imprimir
+        ja = 印刷
+        zh = 打印
+        tags = ios
+
+[[Error messages]]
+    [error.readingresponse.dialog.msg]
+        en = Failed to load data!
+        de = Die Daten konnten nicht geladen werden.
+        fr = Echec du chargement des données !
+        es = Error al cargar los datos.
+        it = Impossibile caricare i dati.
+        pt = Falha ao carregar dados!
+        ja = データの読み込みが失敗しました。
+        zh = 加载数据失败！
+        tags = ios
+    [error.noconnection.dialog.title]
+        en = Network is not available
+        de = Netzwerk ist nicht verfügbar
+        fr = Le réseau n'est pas disponible
+        es = La red no está disponible
+        it = La rete non è disponibile
+        pt = Rede não está disponível
+        ja = ネットワークは利用不可
+        zh = 网络没有
+        tags = ios
+    [error.noconnection.dialog.msg]
+        en = Check your network settings (mobile data or wifi) and try again.
+        de = Prüfen Sie Ihre Netzwerkeinstellungen (Mobildaten oder WLAN), und versuchen Sie es erneut.
+        fr = Vérifiez vos paramètres réseau (données mobiles ou Wi-Fi) et réessayez.
+        es = Compruebe la configuración de red (datos móviles o Wi-Fi) e inténtelo de nuevo.
+        it = Verificare le impostazioni di rete (dati mobili o wi-fi) e riprovare.
+        pt = Verifique as configurações da rede (dados móveis ou wifi) e tente novamente.
+        ja = ネットワーク設定 (モバイル データや WiFi) を確認して、やり直してください。
+        zh = 检查您的网络设置(移动数据或 WiFi)并重试。
+        tags = ios
+    [error.authenication.dialog.title]
+        en = Invalid credentials supplied.
+        de = Ungültige Anmeldedaten
+        fr = Données d’identification non valides
+        es = Credenciales no válidas
+        it = Credenziali non valide
+        pt = Credenciais inválidas
+        ja = 無効な認証情報
+        zh = 凭据无效
+        tags = ios
+    [error.authenication.dialog.msg]
+        en = Could not login to JasperReports Server.
+        de = Der Benutzername oder das Passwort ist falsch. Geben Sie Ihre Anmeldedaten erneut ein.
+        fr = Le nom d’utilisateur ou le mot de passe est incorrect. Saisissez à nouveau vos données d’identification.
+        es = El nombre de usuario o la contraseña son incorrectos. Vuelva a introducir las credenciales.
+        it = Nome utente o password non corretti. Immettere nuovamente le credenziali.
+        pt = O nome de usuário ou senha está incorreta. Reinsira suas credenciais.
+        ja = ユーザー名またはパスワードが正しくありません。認証情報をもう一度入力してください。
+        zh = 用户名或密码不正确。重新输入您的凭据。
+        tags = ios
+    [error.unknownhost.dialog.title]
+        en = Unknown server
+        de = Unbekannter Server
+        fr = Serveur inconnu
+        es = Servidor desconocido
+        it = Server sconosciuto
+        pt = Servidor desconhecido
+        ja = 不明なサーバー
+        zh = 未知服务器
+        tags = ios
+    [error.unknownhost.dialog.msg]
+        en = The specified hostname could not be found.
+        de = Der angegebene Hostname konnte nicht gefunden werden.
+        fr = Le nom d’hôte spécifié est introuvable.
+        es = No se pudo encontrar el nombre de host especificado.
+        it = Impossibile trovare il nome host specificato.
+        pt = Não foi possível encontrar o nome de host especificado.
+        ja = 指定されたホスト名を見つけることができませんでした。
+        zh = 找不到指定主机名。
+        tags = ios
+    [error.upgrade.data.title]
+        en = Upgrade Error - User Data Update
+        de = Upgrade-Fehler - Aktualisieren der Benutzerdaten
+        fr = Erreur de mise à niveau - Mise à jour des données utilisateur
+        es = Error de actualización: actualización de datos de usuario
+        it = Errore di upgrade -Aggiornamento dati utente
+        pt = Erro de atualização - Atualização de dados do usuário
+        ja = アップグレード エラー - ユーザー データの更新
+        zh = 升级错误 - 用户数据更新
+        tags = ios
+    [error.upgrade.data.msg]
+        en = There was an error updating user data (Servers, Favorites, Filter values & Settings) during the upgrade process. Press:\nRetry - to re-execute the data update again\nApply - to ignore the error and continue with upgrade, you may LOSE all user data\nCancel - to cancel the upgrade (this will leave you at the current version)
+        de = Beim Aktualisieren der Benutzerdaten (Server, Favoriten, Filterwerte und Einstellungen) während des Upgrade-Vorgangs ist ein Fehler aufgetreten. Wählen Sie:\nWiederholen, um die Aktualisierung der Daten zu wiederholen,\nAnwenden, um den Fehler zu ignorieren und mit dem Upgrade fortzufahren; hierbei gehen möglicherweise alle Benutzerdaten VERLOREN,\nAbbrechen, um das Upgrade abzubrechen (wobei Sie bei der aktuellen Version verbleiben).
+        fr = Une erreur s’est produite lors de la mise à jour des données utilisateur (Serveurs, Favoris, Valeurs de filtre & Paramètres) pendant le processus de mise à niveau. Appuyez sur :\nRéessayer : pour ré-exécuter la mise à jour des données\nAppliquer : pour ignorer l’erreur et poursuivre la mise à niveau ; toutes les données utilisateur peuvent être PERDUES\nAnnuler : pour annuler la mise à niveau (vous restez à la version actuelle)
+        es = Se ha producido un error al actualizar los datos de usuario (servidores, favoritos, y valores y configuración del filtro) durante el proceso de actualización. Pulse:\nReintentar para volver a ejecutar de nuevo la actualización.\nAplicar para omitir el error y continuar con la actualización; es posible que PIERDA todos los datos de usuario.\nCancelar para cancelar la actualización (esta acción dejará la versión actual).
+        it = Si è verificato un errore di aggiornamento dei dati utente (Server, Preferiti, Valori dei filtri e Impostazioni) durante il processo di upgrade. Premere:\nRiprova - per ritentare l'aggiornamento dei dati\nApplica - per ignorare l'errore e continuare con l'upgrade, tutti i dati utente potrebbero essere ELIMINATI\nAnnulla - per annullare l'upgrade (verrà mantenuta la versione attuale)
+        pt = Houve um erro ao atualizar os dados do usuário (Servidores, Favoritos, Valores do filtro e Configurações) durante o processo de atualização. Pressione:\nTentar novamente - reexecutar a atualização de dados novamente\nAplicar - ignorar o erro e prosseguir com a atualização, você pode PERDER todos os dados de usuários\nCancelar - cancelar a atualização (isso disponibilizará a versão atual)
+        ja = アップグレード プロセス中にユーザー データ (サーバー、お気に入り、フィルタの値と設定) の更新でエラーが発生しました。次を押してください。\n再試行 - データ更新をもう一度実行します\n適用 - エラーを無視してアップグレードを続けます。すべてのユーザー データが失われる可能性があります\nキャンセル - アップグレードをキャンセルします (現在のバージョンから変更されません)
+        zh = 在升级过程中更新用户数据(服务器、收藏夹、过滤器值和设置)时出错。按:\n重试 - 再次重新执行数据更新\n应用 - 忽略错误并继续升级，您可能会丢失所有用户数据\n取消 - 取消升级(保留当前版本)
+        tags = ios
+    [error.server.notsupported.title]
+        en = Wrong server version or URL
+        de = Falsche Serverversion oder URL
+        fr = Version ou URL du serveur incorrecte
+        es = URL o versión del servidor incorrecta
+        it = Versione del server o URL non corretti
+        pt = Versão do servidor ou URL errada
+        ja = サーバー バージョンまたは URL が不正
+        zh = 服务器版本或 URL 不正确
+        tags = ios
+    [error.server.notsupported.msg]
+        en = The server version is not supported, or the URL is incorrect.
+        de = Die Serverversion ist älter als %.1f (nicht unterstützt), oder die URL ist falsch.
+        fr = La version du serveur est antérieure à %.1f (non prise en charge), ou l’URL est incorrecte.
+        es = La versión del servidor es anterior a la versión %.1f (no admitida) o la URL es incorrecta.
+        it = La versione del server è precedente alla %.1f (non supportata), oppure l'URL non è corretto.
+        pt = A versão do servidor é mais antiga que %.1f (não suportado), ou a URL está incorreta.
+        ja = サーバー バージョンが %.1f より古い (サポートされていない) か、URL が正しくありません。
+        zh = 服务器版本比 %.1f (不支持)更旧，或 URL 不正确。
+        tags = ios
+
+[[HTTP error messages]]
+    [error.http.400]
+        en = 400 - Bad Request. The request was invalid
+        de = 400 - Unzulässige Anforderung. Die Anforderung war ungültig.
+        fr = 400 - Requête incorrecte. La requête n’est pas valide
+        es = 400 - Solicitud incorrecta. La solicitud no era válida.
+        it = 400 - Richiesta non valida. La richiesta non è valida
+        pt = 400 - Solicitação Incorreta. A solicitação era inválida
+        ja = 400 - 不正なリクエスト。リクエストは無効です
+        zh = 400 - 错误的请求。请求无效
+        tags = ios
+    [error.http.403]
+        en = 403 - Permission Denied. The request is understood, but it has been refused
+        de = 403 - Berechtigung verweigert. Die Anforderung war gültig, wurde aber abgelehnt.
+        fr = 403 - Autorisation refusée. La requête est comprise, mais a été refusée
+        es = 403 - Permiso denegado. Se ha entendido la solicitud, pero se ha rechazado.
+        it = 403 - Permesso negato. La richiesta è stata compresa, ma è stata rifiutata
+        pt = 403 - Permissão Negada. A solicitação foi compreendida, mas foi recusada
+        ja = 403 - アクセスは拒否されました。リクエストは認識されましたが、拒否されました
+        zh = 403 - 权限被拒绝。请求已理解，但被拒绝
+        tags = ios
+    [error.http.404]
+        en = 404 - Not Found. The URI requested is invalid or the resource requested does not exists
+        de = 404 - Nicht gefunden. Der angeforderte URI ist ungültig, oder die angeforderte Ressource ist nicht vorhanden.
+        fr = 404 - Introuvable. L’URI demandée n’est pas valide ou la ressource demandée n’existe pas
+        es = 404 - No encontrado. El URI solicitado no es válido o el recurso solicitado no existe.
+        it = 404 - Non trovato. L'URI richiesto non è valido o la risorsa richiesta non esiste
+        pt = 404 - Não Encontrado. A URI solicitada é inválida ou o recurso solicitado não existe
+        ja = 404 - 見つかりませんでした。要求された URI が無効か、要求されたリソースが存在しません
+        zh = 404 - 找不到。请求的 URI 无效或请求的资源不存在
+        tags = ios
+    [error.http.500]
+        en = 500 - Internal Server Error
+        de = 500 - Interner Serverfehler
+        fr = 500 - Erreur serveur interne
+        es = 500 - Error interno del servidor
+        it = 500 - Errore interno del server
+        pt = 500 - Erro Interno do servidor
+        ja = 500 - サーバーの内部エラー
+        zh = 500 - 内部服务器错误
+        tags = ios
+    [error.http.502]
+        en = 502 - Bad Gateway
+        de = 502 - Ungültiges Gateway
+        fr = 502 - Passerelle incorrecte
+        es = 502 - Puerta de enlace incorrecta
+        it = 502 - Gateway non valido
+        pt = 502 - Gateway Incorreto
+        ja = 502 - 不正なゲートウェイ
+        zh = 502 - 错误的网关
+        tags = ios
+    [error.http.503]
+        en = 503 - Service Unavailable
+        de = 503 - Service nicht verfügbar
+        fr = 503 - Service non disponible
+        es = 503 - Servicio no disponible
+        it = 503 - Servizio non disponibile
+        pt = 503 - Serviço Indisponível
+        ja = 503 - サービスを利用できません
+        zh = 503 - 服务不可用
+        tags = ios
+    [error.http.504]
+        en = 504 - Gateway Timeout
+        de = 504 - Gateway-Timeout
+        fr = 504 - Délai d’attente de la passerelle
+        es = 504 - Se ha agotado el tiempo de espera de la puerta de enlace.
+        it = 504 - Timeout del gateway
+        pt = 504 - Tempo Limite do Gateway
+        ja = 504 - ゲートウェイのタイムアウト
+        zh = 504 - 网关超时
+        tags = ios
+
+[[Buttons]]
+    [dialog.button.applyUpdate]
+        en = Apply
+        de = Anwenden
+        fr = Appliquer
+        es = Aplicar
+        it = Applica
+        pt = Aplicar
+        ja = 適用
+        zh = 应用
+        tags = ios
+    [dialog.button.ok]
+        en = OK
+        de = OK
+        fr = OK
+        es = Aceptar
+        it = OK
+        pt = OK
+        ja = OK
+        zh = 确定
+        tags = ios
+    [dialog.button.cancel]
+        en = Cancel
+        de = Abbrechen
+        fr = Annuler
+        es = Cancelar
+        it = Annulla
+        pt = Cancelar
+        ja = キャンセル
+        zh = 取消
+        tags = ios
+    [dialog.button.continue]
+        en = Continue
+        de = Weiter
+        fr = Continuer
+        es = Continuar
+        it = Continua
+        pt = Continuar
+        ja = 続行
+        zh = 继续
+        tags = ios
+    [dialog.button.retry]
+        en = Retry
+        de = Wiederholen
+        fr = Réessayer
+        es = Reintentar
+        it = Riprova
+        pt = Tentar novamente
+        ja = 再試行
+        zh = 重试
+        tags = ios
+    [dialog.button.run.report]
+        en = Run Report
+        de = Bericht ausführen
+        fr = Lancer le rapport
+        es = Ejecutar informe
+        it = Esegui report
+        pt = Executar relatório
+        ja = レポートの実行
+        zh = 运行报表
+        tags = ios
+    [dialog.button.save]
+        en = Save
+        de = Speichern
+        fr = Enregistrer
+        es = Guardar
+        it = Salva
+        pt = Salvar
+        ja = 保存
+        zh = 保存
+        tags = ios
+    [dialog.button.delete]
+        en = Delete
+        de = Löschen
+        fr = Supprimer
+        es = Eliminar
+        it = Elimina
+        pt = Excluir
+        ja = 削除
+        zh = 删除
+        tags = ios
+    [dialod.title.attention]
+        en = Warning
+        de = Warnung
+        fr = Avertissement
+        es = Advertencia
+        it = Avviso
+        pt = Atenção
+        ja = 警告
+        zh = 警告
+        tags = ios
+    [dialod.title.error]
+        en = Error
+        de = Fehler
+        fr = Erreur
+        es = Error
+        it = Errore
+        pt = Erro
+        ja = エラー
+        zh = 错误
+        tags = ios
+    [dialod.title.confirmation]
+        en = Confirmation
+        de = Bestätigung
+        fr = Confirmation
+        es = Confirmación
+        it = Conferma
+        pt = Confirmação
+        ja = 確認
+        zh = 确认
+        tags = ios
+
+[[Other]]
+    [status.loading]
+        en = Loading...
+        de = Laden...
+        fr = Chargement...
+        es = Cargando...
+        it = Caricamento in corso...
+        pt = Carregando...
+        ja = 読み込み中...
+        zh = 正在加载...
+        tags = ios
+    [status.loading.ic]
+        en = Loading...
+        de = Laden...
+        fr = Chargement...
+        es = Cargando...
+        it = Caricamento in corso...
+        pt = Carregando...
+        ja = 読み込み中...
+        zh = 正在加载...
+        tags = ios
+    [back.button.title]
+        en = Back
+        de = Zurück
+        fr = Précédent
+        es = Atrás
+        it = Indietro
+        pt = Voltar
+        ja = 戻る
+        zh = 后退
+        tags = ios
