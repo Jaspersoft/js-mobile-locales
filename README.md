@@ -20,3 +20,5 @@ We decided to use Twin command line tool (https://github.com/mobiata/twine).
 {twine} generate-all-string-files {source} {destination} --format android --tags android
 #### For the new strings
 {twine} generate-all-string-files {source} {destination} --format {platform} --tags new
+We add new strings and use tag `new` for them.
+After those strings were translated we need remove tag `new`
